@@ -388,13 +388,20 @@ var avionics_bus = func(bus_volts) {
     } else {
         OutPuts.getNode("comm",1).setValue(0.0);
     }
-#
-#    if (props.globals.getNode("/instrumentation/kt76a/mode").getValue() > 0 and props.globals.getNode("/controls/switches/transponder").getBoolValue()){
-#        OutPuts.getNode("transponder",1).setValue(bus_volts);
-#        load += 0.00015;
-#    } else {
-#        OutPuts.getNode("transponder",1).setValue(0.0);
-#    }
+    
+    if (props.globals.getNode("/instrumentation/dme/serviceable").getBoolValue() and props.globals.getNode("/sim/failure-manager/instrumentation/dme/serviceable").getBoolValue()){
+        OutPuts.getNode("dme",1).setValue(bus_volts);
+        load += 0.00015;
+    } else {
+        OutPuts.getNode("dme",1).setValue(0.0);
+    }
+
+    if (props.globals.getNode("/instrumentation/kt76a/mode").getValue() > 0 and props.globals.getNode("/controls/switches/transponder").getBoolValue()){
+        OutPuts.getNode("transponder",1).setValue(bus_volts);
+        load += 0.00015;
+    } else {
+        OutPuts.getNode("transponder",1).setValue(0.0);
+    }
 
     if (props.globals.getNode("/instrumentation/nav/serviceable").getBoolValue() ){
         OutPuts.getNode("nav",1).setValue(bus_volts);
