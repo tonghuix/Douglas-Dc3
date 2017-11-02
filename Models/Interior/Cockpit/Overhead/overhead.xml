@@ -83,13 +83,32 @@
   </model>
 
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Overhead/Instruments/VHF-22/ctl22-com1.xml</path>
+    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Overhead/Instruments/radio/ctl22-com1.xml</path>
     <offsets>
-      <x-m>  0.020 </x-m>
-      <y-m> -0.020 </y-m>
-      <z-m>  0.503 </z-m>
+      <x-m>  0.025 </x-m>
+      <y-m> -0.032 </y-m>
+      <z-m>  0.505 </z-m>
       <pitch-deg> 75 </pitch-deg>
     </offsets>
   </model>
 
+  <model>
+    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Overhead/Instruments/radio/ctl32-nav1.xml</path>
+    <offsets>
+      <x-m>  0.025 </x-m>
+      <y-m> 0.032 </y-m>
+      <z-m>  0.505 </z-m>
+      <pitch-deg> 75 </pitch-deg>
+    </offsets>
+  </model>
+
+  <model>
+	  <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Overhead/Instruments/ki266/ki266.xml</path>
+    <offsets>
+      <x-m> -0.025 </x-m>
+      <y-m> 0.0 </y-m>
+      <z-m>  0.485 </z-m>
+      <pitch-deg> 75 </pitch-deg>
+    </offsets>
+  </model>
 </PropertyList>
