@@ -11,7 +11,7 @@
      April    2016 updated  by Helijah     : http://helijah.free.fr / http://embaranger.free.fr
      ***************************************************************************************
 -->
-<PropertyList>
+<PropertyList include="Aircraft/Generic/Human/Include/walker-include.xml">
 
   <sim include="views.xml">
     
@@ -25,14 +25,14 @@
     </submodels>
     
     <model>
-      <start-idling type="bool">false</start-idling>
+      <start-idling type="bool">true</start-idling>
       <config>
         <show-yokes type="bool">true</show-yokes>
         <show-pilot type="bool">true</show-pilot>
         <show-copilot type="bool">true</show-copilot>
-        <details-high type="bool">false</details-high>
-        <light-cone type="bool">true</light-cone>
-        <version type="string">civilian-red</version>
+        <details-high type="bool">true</details-high>
+        <light-cone type="bool">false</light-cone>
+        <version type="string">civilian-grey</version>
       </config>
     </model>
 
