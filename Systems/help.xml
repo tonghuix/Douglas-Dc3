@@ -4,6 +4,7 @@
   
   <title>Douglas DC-3 C47</title>
   <line>______________________________________________</line>
+  <!--
   <key>
     <name>d</name>
     <desc>Open/Close crew door</desc>
@@ -12,6 +13,7 @@
     <name>D</name>
     <desc>Open/Close passenger door</desc>
   </key>
+-->
   <key>
     <name>E</name>
     <desc>Open/Close cargo door</desc>

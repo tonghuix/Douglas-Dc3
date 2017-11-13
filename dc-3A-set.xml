@@ -21,7 +21,9 @@
     <flight-model>yasim</flight-model>
     <aero>Systems/dc-3A-yasim</aero>
     
-    <variant-of>dc-3</variant-of>
+    <type type="string">seaplane</type>
+    
+    <!-- <variant-of>dc-3</variant-of> -->
     
     <rating>
       <FDM type="int">     4 </FDM>
@@ -30,8 +32,6 @@
       <model type="int">   4 </model>
     </rating>
 
-    <type type="string">seaplane</type>
-    
     <startup>
       <splash-texture>Aircraft/Douglas-Dc3/dc-3-splash.png</splash-texture>
     </startup>
