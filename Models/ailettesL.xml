@@ -57,6 +57,7 @@
   </animation>
 
   <effect>
+	  <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Textures/skin-reflect</inherits-from>
     <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
     <object-name>ailette1</object-name>
     <object-name>ailette2</object-name>
