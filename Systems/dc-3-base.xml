@@ -14,7 +14,8 @@
 <PropertyList include="Aircraft/Generic/Human/Include/walker-include.xml">
 
   <sim include="views.xml">
-    
+    <rain-enabled type="int">2</rain-enabled>
+
     <fuel-fraction>0.8</fuel-fraction>
 
     <tutorials include="../Tutorials/dc-3-tutorials.xml"/>
@@ -171,6 +172,8 @@
 
   <engines include="engines.xml"/>
 
+  <rain include="glass-rain.xml"/>
+
   <nasal>
     <doors>
       <file>Aircraft/Douglas-Dc3/Nasal/doors.nas</file>
@@ -189,6 +192,7 @@
       <file>Aircraft/Douglas-Dc3/Nasal/hydraulic.nas</file>
       <file>Aircraft/Douglas-Dc3/Nasal/wipers.nas</file>
       <file>Aircraft/Douglas-Dc3/Nasal/ki266.nas</file>
+      <file>Aircraft/Douglas-Dc3/Nasal/light-manager.nas</file>
     </dc3>
     <chronograph>
       <file>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/chronograph/chronograph.nas</file>
