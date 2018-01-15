@@ -62,6 +62,7 @@
 
   <!-- Left Landing Light -->
   <model>
+    <name>landingL</name>
     <condition>
       <property>sim/model/config/light-cone</property>
     </condition>
@@ -74,8 +75,34 @@
     </offsets>
   </model>
 
+  <model>
+    <condition>
+      <not><property>sim/model/config/light-cone</property></not>
+    </condition>
+    <path>Aircraft/Douglas-Dc3/Models/Light/LandingLightPlateL.xml</path>
+    <offsets>
+      <x-m> -4.606 </x-m>
+      <y-m> -5.594 </y-m>
+      <z-m> -0.908 </z-m>
+      <pitch-deg> -14 </pitch-deg>
+    </offsets>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>landingL</object-name>
+    <condition>
+      <equals>
+        <property>sim/multiplay/generic/int[17]</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+    <alpha-factor>systems/electrical/volts</alpha-factor>
+  </animation>
+
   <!-- Right Landing Light -->
   <model>
+    <name>landingR</name>
     <condition>
       <property>sim/model/config/light-cone</property>
     </condition>
@@ -87,6 +114,31 @@
       <pitch-deg> -14 </pitch-deg>
     </offsets>
   </model>
+
+  <model>
+    <condition>
+      <not><property>sim/model/config/light-cone</property></not>
+    </condition>
+    <path>Aircraft/Douglas-Dc3/Models/Light/LandingLightPlateR.xml</path>
+    <offsets>
+      <x-m> -4.606 </x-m>
+      <y-m>  5.594 </y-m>
+      <z-m> -0.908 </z-m>
+      <pitch-deg> -14 </pitch-deg>
+    </offsets>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>landingR</object-name>
+    <condition>
+      <equals>
+        <property>sim/multiplay/generic/int[18]</property>
+        <value> 1 </value>
+      </equals>
+    </condition>
+    <alpha-factor>systems/electrical/volts</alpha-factor>
+  </animation>
 
   <!-- Recognition Light 1 -->
   <model>
