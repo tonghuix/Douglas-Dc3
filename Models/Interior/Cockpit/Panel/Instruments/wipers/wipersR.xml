@@ -2,12 +2,12 @@
 
 <PropertyList> 
 
-  <path>wipers.ac</path>
+  <path>wipersR.ac</path>
 
   <animation>
     <!-- Objets opaques -->
     <object-name>moteur</object-name>
-    <object-name>bras</object-name>
+    <object-name>brasR</object-name>
 
     <!-- Objets transparents -->
   </animation>
@@ -16,7 +16,7 @@
   <animation>
     <type>material</type>
     <object-name>moteur</object-name>
-    <object-name>bras</object-name>
+    <object-name>brasR</object-name>
     <condition>
       <and>
         <equals>
@@ -32,7 +32,7 @@
   <animation>
     <type>material</type>
     <object-name>moteur</object-name>
-    <object-name>bras</object-name>
+    <object-name>brasR</object-name>
     <condition>
       <and>
         <equals>
@@ -48,7 +48,7 @@
   <animation>
     <type>material</type>
     <object-name>moteur</object-name>
-    <object-name>bras</object-name>
+    <object-name>brasR</object-name>
     <condition>
       <and>
         <equals>
@@ -62,9 +62,9 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>bras</object-name>
+    <object-name>brasR</object-name>
     <property>controls/hydraulic/wipers-right/position-norm</property>
-    <factor> 170 </factor>
+    <factor> -170 </factor>
     <min>   0 </min>
     <max> 170 </max>
     <axis>
