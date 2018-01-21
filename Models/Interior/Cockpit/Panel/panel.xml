@@ -86,7 +86,7 @@
   <model>
     <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/cap/cap.xml</path>
     <offsets>
-      <x-m> -0.120 </x-m>
+      <x-m> -0.080 </x-m>
       <y-m>  0.000 </y-m>
       <z-m>  0.645 </z-m>
     </offsets>
@@ -94,7 +94,7 @@
    
   <!-- chronometre -->
   <model>
-    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/chronograph/chronograph.xml</path>
+	  <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/clock/clock.xml</path>
     <offsets>
       <x-m> -0.006 </x-m>
       <y-m> -0.612 </y-m>
@@ -202,7 +202,8 @@
     </offsets>
   </model>
   
-  <!--rmi -->
+  
+<!--rmi -->
   <model>
     <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/rmi/rmi.xml</path>
     <offsets>
@@ -262,7 +263,7 @@
     </offsets>
   </model>
 
-  <!-- Panel copilote -->
+<!-- Panel copilote -->
   <!-- ASI -->
   <model>
     <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/asi/asi.xml</path>
