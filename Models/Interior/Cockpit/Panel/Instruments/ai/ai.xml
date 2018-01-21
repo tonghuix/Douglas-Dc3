@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList> 
 
@@ -17,19 +17,15 @@
 	
     <!-- Objets transparents -->
     <object-name>vitre</object-name>
+  </animation> 
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>vitre</object-name>
   </animation>
 
-  <!-- working for Rembrandt -->
-  <effect>
-    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Glass/glass</inherits-from>
-    <object-name>vitre</object-name>
-  </effect>
-  
-  <effect>
-    <inherits-from>Effects/model-transparent</inherits-from>
-    <object-name>vitre</object-name>
-  </effect>
-  
   <animation> 
     <type>material</type>
     <object-name>face</object-name>
@@ -59,20 +55,61 @@
     </axis>
   </animation>
 
-  <!--
-  <animation> 
+
+  <animation>
     <type>translate</type>
     <object-name>ai</object-name>
     <property>instrumentation/attitude-indicator/indicated-pitch-deg</property>
-    <factor>0.0005</factor>
-    <max>30</max>
-    <min>-30</min>
+    <factor>-0.0015</factor>
+    <max-m>0.025</max-m>
+    <min-m>-0.025</min-m>
     <axis> 
       <x> 0 </x>
       <y> 0 </y>
       <z> 1 </z>
     </axis>
   </animation>
-  -->
+
+  <!-- TEXT OSG -->
+  <text>
+    <name>textosg</name>
+    <type type="string">literal</type>
+    <text type="string">AI</text>
+    <draw-text type="bool">true</draw-text>
+    <font>Helvetica.txf</font>
+    <character-size type="double">0.014</character-size>
+    <character-aspect-ratio type="double">1.0</character-aspect-ratio>
+    <axis-alignment>yz-plane</axis-alignment>
+    <max-height>0.06</max-height>
+    <max-width>0.05</max-width>
+    <font-resolution>
+      <width type="int">64</width>
+      <height type="int">64</height>
+    </font-resolution>
+    <alignment>center-center</alignment>
+    <offsets>
+      <x-m>  0.015 </x-m>
+      <y-m> -0.025 </y-m>
+      <z-m>  0.000 </z-m>
+    </offsets>
+  </text>
+
+  <animation>
+    <type>material</type>
+    <object-name>textosg</object-name>
+    <emission>
+      <red>   0.8 </red>
+      <green> 0.8 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>select</type>
+    <object-name>textosg</object-name>
+    <condition>
+      <property>sim/panel-hotspots</property>
+    </condition>
+  </animation>
 
 </PropertyList>
