@@ -274,6 +274,15 @@
     </offsets>
   </model>
   
+  <model>
+    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/ki266/ki266.xml</path>
+    <offsets>
+      <x-m> -0.008 </x-m>
+      <y-m>  0.292 </y-m>
+      <z-m>  0.500 </z-m>
+    </offsets>
+  </model>
+
   <!-- tempérture air extérieur -->
   <model>
     <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/temp/temp.xml</path>
