@@ -253,6 +253,24 @@
     </offsets>
   </model>
  
+  <model>
+    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/transponder/gtx320a.xml</path>
+    <offsets>
+      <x-m> -0.015 </x-m>
+      <y-m>  0.085 </y-m>
+      <z-m>  0.160</z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/ki266/ki266.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m> -0.110  </y-m>
+      <z-m>  0.160 </z-m>
+    </offsets>
+  </model>
+
   <!-- Pilot auto sterry mark III-->
   <model>
     <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/sperry/sperry.xml</path>
@@ -274,14 +292,6 @@
     </offsets>
   </model>
   
-  <model>
-    <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/ki266/ki266.xml</path>
-    <offsets>
-      <x-m> -0.008 </x-m>
-      <y-m>  0.292 </y-m>
-      <z-m>  0.500 </z-m>
-    </offsets>
-  </model>
 
   <!-- tempérture air extérieur -->
   <model>
