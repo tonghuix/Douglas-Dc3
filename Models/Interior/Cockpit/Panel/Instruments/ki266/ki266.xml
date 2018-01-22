@@ -60,33 +60,7 @@
     </animation>
 
     <effect>
-        <inherits-from>Aircraft/dhc6/Models/Effects/interior/dhc6-interior</inherits-from>
-        <object-name>Plane</object-name>
-        <object-name>n1f</object-name>
-        <object-name>hld</object-name>
-        <object-name>n2</object-name>
-        <object-name>on</object-name>
-        <object-name>Label3</object-name>
-        <object-name>off</object-name>
-        <object-name>SourceSelectorKnob</object-name>
-        <object-name>PowerSwitch.Base</object-name>
-        <object-name>PowerSwitch.Lever</object-name>
-        <object-name>Frame</object-name>
-        <object-name>Left.100</object-name>
-        <object-name>Left.10</object-name>
-        <object-name>Left.Dot1</object-name>
-        <object-name>Left.1</object-name>
-        <object-name>Right.100</object-name>
-        <object-name>Right.10</object-name>
-        <object-name>Right.1</object-name>
-        <object-name>Miles</object-name>
-        <object-name>Min</object-name>
-        <object-name>Kts</object-name>
-        <object-name>ModeSwitch</object-name>
-    </effect>
-
-    <effect>
-        <inherits-from>Aircraft/dhc6/Models/Effects/interior/dhc6-flashlight</inherits-from>
+	<inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
         <object-name>Plane</object-name>
         <object-name>n1f</object-name>
         <object-name>hld</object-name>

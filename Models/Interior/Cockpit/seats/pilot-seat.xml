@@ -3,6 +3,13 @@
 <PropertyList> 
 
   <path>pilot-seat.ac</path>
+  <effect>
+	  <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+	  <object-name>structure</object-name>
+	  <object-name>fond</object-name>
+	  <object-name>coussin</object-name>
+ 	  <object-name>acoudoir</object-name>
+  </effect>
 
   <animation>
     <!-- Objets opaques -->

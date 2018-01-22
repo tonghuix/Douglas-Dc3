@@ -15,12 +15,19 @@
     <object-name>structure</object-name>
 
     <!-- Objets transparents -->
+    <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>cab-intvitres</object-name>
   </animation>
 
   <effect>
-    <inherits-from>Effects/model-transparent</inherits-from>
-    <object-name>cab-intvitres</object-name>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>cab-interieur</object-name>    
+    <object-name>cab-plancher</object-name>
+    <object-name>cadres-vitres</object-name>
+    <object-name>guide</object-name>
+    <object-name>poignee</object-name>
+    <object-name>verrou</object-name>
+    <object-name>structure</object-name>
   </effect>
   
   <!-- Civilian red version -->
