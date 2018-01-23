@@ -28,10 +28,10 @@
     <type>material</type>
     <object-name>Light</object-name>
     <emission>
+      <red>   0.027 </red>
+      <green> 0.027 </green>
+      <blue>  0.027 </blue>
       <factor-prop>systems/electrical/outputs/running-lights</factor-prop>
-      <red>   2 </red>
-      <green> 0 </green>
-      <blue>  0 </blue>
     </emission>
   </animation>
   
