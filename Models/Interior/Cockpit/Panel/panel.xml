@@ -113,7 +113,7 @@
   <model>
     <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/flaps/flap-gauge.xml</path>
     <offsets>
-      <x-m> -0.007 </x-m>
+      <x-m> -0.005 </x-m>
       <y-m> -0.700 </y-m>
       <z-m>  0.345 </z-m>
     </offsets>
