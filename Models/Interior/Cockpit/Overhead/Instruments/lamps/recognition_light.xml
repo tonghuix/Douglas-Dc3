@@ -4,6 +4,13 @@
 
   <path>recognition_light.ac</path>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>fond</object-name>
+    <object-name>lampoff</object-name>
+    <object-name>lampon</object-name>
+  </effect>
+
   <animation>
     <object-name>fond</object-name>
 

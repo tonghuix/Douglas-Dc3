@@ -4,11 +4,12 @@
 
   <path>wiper-tube.ac</path>
 
-  <animation>
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
     <object-name>racD</object-name>
     <object-name>racG</object-name>
     <object-name>racCenter</object-name>
-  </animation>
+  </effect>
 
 </PropertyList>
 

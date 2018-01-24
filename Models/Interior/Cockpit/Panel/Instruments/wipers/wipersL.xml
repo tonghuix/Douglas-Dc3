@@ -4,13 +4,14 @@
 
   <path>wipers.ac</path>
 
-  <animation>
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
     <!-- Objets opaques -->
     <object-name>moteur</object-name>
     <object-name>bras</object-name>
 
     <!-- Objets transparents -->
-  </animation>
+  </effect>
 
   <!-- Civilian red version -->
   <animation>

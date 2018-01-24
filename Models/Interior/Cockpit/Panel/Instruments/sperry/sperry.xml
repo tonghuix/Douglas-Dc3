@@ -4,7 +4,8 @@
 
   <path>sperry.ac</path>
  
-  <animation>
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
     <object-name>sperry</object-name>
     <object-name>marker</object-name>
     <object-name>Rud</object-name>
@@ -23,7 +24,7 @@
     <object-name>AilL</object-name>
     <object-name>AilR</object-name>
     <object-name>OnOff</object-name>
-  </animation>
+  </effect>
   
   <!-- Conservateur de cap -->
   <model>

@@ -4,14 +4,15 @@
 
   <path>warning.ac</path>
 
-  <animation>
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
     <object-name>text</object-name>
     <object-name>heat.left</object-name>
     <object-name>heat.right</object-name>
     <object-name>wheels.unlock</object-name>
     <object-name>wheels.locked</object-name>
     <object-name>doors.open</object-name>
-  </animation>
+  </effect>
 
   <animation>
     <type>material</type>

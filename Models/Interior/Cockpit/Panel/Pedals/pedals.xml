@@ -4,6 +4,18 @@
   
   <path>pedals.ac</path>
   
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>mec-freins</object-name>
+    <object-name>guide-pieds</object-name>
+    <object-name>pedalsL</object-name>
+    <object-name>pedalsR</object-name>
+    <object-name>brakeL</object-name>
+    <object-name>brakeR</object-name>
+    <object-name>axeL</object-name>
+    <object-name>axeR</object-name>
+  </effect>
+
   <animation>
     <object-name>mec-freins</object-name>
     <object-name>guide-pieds</object-name>

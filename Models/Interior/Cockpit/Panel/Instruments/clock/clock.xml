@@ -4,6 +4,16 @@
 
  <path>clock.ac</path>
 
+ <effect>
+   <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+   <!-- Objets opaques -->
+    <object-name>fond</object-name>
+    <object-name>Face</object-name>
+    <object-name>SecondHand</object-name>
+    <object-name>MinuteHand</object-name>
+    <object-name>HourHand</object-name>
+ </effect>
+
  <animation>
    <!-- Objets opaques -->
     <object-name>fond</object-name>

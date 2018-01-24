@@ -4,6 +4,22 @@
   
   <path>ignition.ac</path>
   
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>ignitiationcadre</object-name>
+    <object-name>ignitiationcadre</object-name>
+    <object-name>boutton</object-name>
+    <object-name>ignitiationface</object-name>
+    <object-name>fondL</object-name>
+    <object-name>keyL</object-name>
+    <object-name>fondR</object-name>
+    <object-name>keyR</object-name>
+    <object-name>increaseL</object-name>
+    <object-name>decreaseL</object-name>
+    <object-name>increaseR</object-name>
+    <object-name>decreaseR</object-name>
+  </effect>
+
   <animation>
     <object-name>ignitiationcadre</object-name>
     <object-name>ignitiationcadre</object-name>

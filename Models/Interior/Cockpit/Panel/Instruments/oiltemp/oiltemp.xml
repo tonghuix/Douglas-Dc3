@@ -4,6 +4,16 @@
 
   <path>oiltemp.ac</path>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>fond</object-name>
+    <object-name>fond2</object-name>
+    <object-name>visses</object-name>
+    <object-name>face</object-name>
+    <object-name>needleL</object-name>
+    <object-name>needleR</object-name>
+  </effect>
+
   <animation>
     <object-name>fond</object-name>
     <object-name>fond2</object-name>

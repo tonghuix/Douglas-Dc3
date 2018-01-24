@@ -4,6 +4,18 @@
 
   <path>cowl-flaps.ac</path>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>plaque</object-name>
+    <object-name>vanne</object-name>
+    <object-name>LH</object-name>
+    <object-name>RH</object-name>
+    <object-name>cflUp</object-name>
+    <object-name>cflDown</object-name>
+    <object-name>cfrUp</object-name>
+    <object-name>cfrDown</object-name>
+  </effect>
+
   <animation>     
     <object-name>plaque</object-name>
     <object-name>vanne</object-name>

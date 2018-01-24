@@ -4,6 +4,18 @@
   
   <path>handle.ac</path>
   
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>mancheG</object-name>
+    <object-name>ecrousG</object-name>
+    <object-name>volantGG</object-name>
+    <object-name>volantGD</object-name>
+    <object-name>mancheD</object-name>
+    <object-name>ecrousD</object-name>
+    <object-name>volantDG</object-name>
+    <object-name>volantDD</object-name>
+  </effect>
+
   <animation>
     <object-name>mancheG</object-name>
     <object-name>ecrousG</object-name>

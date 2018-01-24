@@ -4,6 +4,33 @@
 
   <path>gear-flaps.ac</path>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>sol_cent</object-name>
+    <object-name>sol_ext</object-name>
+    <object-name>hyd</object-name>
+    <object-name>gear-lev</object-name>
+    <object-name>gear-lev2</object-name>
+    <object-name>flap-lev</object-name>
+    <object-name>vanne</object-name>
+    <object-name>ap-press</object-name>
+    <object-name>hyd-vanne</object-name>
+    <object-name>hydpumps-lev</object-name>
+    <object-name>tube-ext</object-name>
+    <object-name>tube-int</object-name>
+    <object-name>plaque-jauge</object-name>
+    <object-name>raccord-jauge</object-name>
+    <object-name>coude-jauge</object-name>
+    <object-name>vis-jauge</object-name>
+    <object-name>Tube</object-name>
+    <object-name>Plane</object-name>
+    <object-name>sup-jauge</object-name>
+    <object-name>gear-out</object-name>
+    <object-name>gear-in</object-name>
+    <object-name>flap-out</object-name>
+    <object-name>flap-in</object-name>
+  </effect>
+
   <animation>
     <object-name>sol_cent</object-name>
     <object-name>sol_ext</object-name>

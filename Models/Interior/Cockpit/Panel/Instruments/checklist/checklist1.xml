@@ -4,13 +4,14 @@
 
   <path>checklist1.ac</path>
 
-  <animation>
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
     <!-- Objets opaques -->
     <object-name>fond</object-name>
     <object-name>texte</object-name>
 
     <!-- Objets transparents -->
-  </animation>
+  </effect>
 
   <!-- TEXT OSG -->
   <text>

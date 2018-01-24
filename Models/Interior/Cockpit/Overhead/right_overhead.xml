@@ -4,9 +4,10 @@
 
   <path>plaque.ac</path>
 
-  <animation>
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
     <object-name>plaque</object-name>
-  </animation>
+  </effect>
   
   <!-- Civilian red version -->
   <animation>

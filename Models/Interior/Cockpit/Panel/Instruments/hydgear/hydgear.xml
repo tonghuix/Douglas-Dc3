@@ -4,6 +4,17 @@
 
   <path>hydgear.ac</path>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>bloc</object-name>
+    <object-name>fondL</object-name>
+    <object-name>fondR</object-name>
+    <object-name>faceL</object-name>
+    <object-name>faceR</object-name>
+    <object-name>needleL</object-name>
+    <object-name>needleR</object-name>
+  </effect>
+
   <animation>
     <object-name>bloc</object-name>
     <object-name>fondL</object-name>

@@ -75,6 +75,13 @@
     </offsets>
   </text>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>magnetoL</object-name>
+    <object-name>magnetoR</object-name>
+    <object-name>url</object-name>
+  </effect>
+
   <animation>
     <type>material</type>
     <object-name>magnetoL</object-name>

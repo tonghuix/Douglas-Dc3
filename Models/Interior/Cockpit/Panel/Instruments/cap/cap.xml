@@ -4,6 +4,15 @@
 
   <path>cap.ac</path>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>fond</object-name>
+    <object-name>faxe</object-name>
+    <object-name>Compass.Case</object-name>
+    <object-name>Compass.Ball</object-name>
+    <object-name>Compass.Index</object-name>
+  </effect>
+
   <animation>
     <object-name>fond</object-name>
     <object-name>faxe</object-name>
