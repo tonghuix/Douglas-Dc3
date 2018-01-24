@@ -38,7 +38,7 @@
         <object-name>Knob1000</object-name>
         <object-name>face</object-name>
         <object-name>face-int</object-name>
-        <object-name>vitre</object-name>
+	<object-name>vitre</object-name>
     </animation>
 
     <animation>
@@ -128,9 +128,9 @@
         </not>
         </condition>
         <emission>
-            <red>   0.07 </red>
-            <green> 0.04 </green>
-            <blue>  0.04 </blue>
+            <red>   0.50 </red>
+            <green> 0.25 </green>
+            <blue>  0.25 </blue>
             <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
         </emission>
     </animation>
