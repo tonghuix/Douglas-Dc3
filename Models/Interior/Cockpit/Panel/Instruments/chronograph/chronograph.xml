@@ -4,6 +4,21 @@
 
   <path>chronograph.ac</path>
 
+  <effect>
+    <inherits-from>Aircraft/Douglas-Dc3/Models/Effects/Interior/dc3-interior</inherits-from>
+    <object-name>mount</object-name>
+    <object-name>bkg</object-name>
+    <object-name>knob</object-name>
+    <object-name>button</object-name>
+    <object-name>disk</object-name>
+    <object-name>face</object-name>
+    <object-name>HourHand</object-name>
+    <object-name>MinuteHand</object-name>
+    <object-name>SecondHand</object-name>
+    <object-name>time-offset-left</object-name>
+    <object-name>time-offset-right</object-name>
+  </effect>
+
   <animation>
     <object-name>mount</object-name>
     <object-name>bkg</object-name>
@@ -18,7 +33,6 @@
 
     <object-name>time-offset-left</object-name>
     <object-name>time-offset-right</object-name>
-    <object-name>chronometer-button</object-name>
     <object-name>vitre</object-name>
   </animation>
 
@@ -178,12 +192,12 @@
     </action>
   </animation>
 
-  <!-- Chronometer Start Stop Button
+  <!-- Chronometer Start Stop Button -->
   <animation>
     <name>start-stop-reset</name>
     <type>pick</type>
     <visible>true</visible>
-    <object-name>chronometer-button</object-name>
+    <object-name>button</object-name>
     <action>
       <button>0</button>
       <repeatable>false</repeatable>
@@ -193,11 +207,5 @@
       </binding>
     </action>
   </animation>
-  -->
-  <animation>
-    <type>pick</type>
-    <visible>false</visible>
-    <object-name>chronometer-button</object-name>
-  </animation>
-  
+
 </PropertyList>

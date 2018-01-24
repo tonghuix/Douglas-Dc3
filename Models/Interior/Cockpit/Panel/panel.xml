@@ -101,9 +101,9 @@
    
   <!-- chronometre -->
   <model>
-	  <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/clock/clock.xml</path>
+	  <path>Aircraft/Douglas-Dc3/Models/Interior/Cockpit/Panel/Instruments/chronograph/chronograph.xml</path>
     <offsets>
-      <x-m> -0.006 </x-m>
+      <x-m> -0.008 </x-m>
       <y-m> -0.612 </y-m>
       <z-m>  0.349 </z-m>
     </offsets>
