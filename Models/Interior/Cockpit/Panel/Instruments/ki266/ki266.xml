@@ -39,7 +39,6 @@
 
     <animation>
         <type>material</type>
-        <object-name>Plane</object-name>
         <object-name>n1f</object-name>
         <object-name>hld</object-name>
         <object-name>n2</object-name>

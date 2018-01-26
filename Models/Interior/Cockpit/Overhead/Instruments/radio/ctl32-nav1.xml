@@ -17,7 +17,6 @@
 
     <animation>
         <type>material</type>
-        <object-name>CTL-32</object-name>
         <object-name>CTL-32.pwr</object-name>
         <object-name>CTL-32.toggle</object-name>
         <object-name>CTL-32.vol</object-name>

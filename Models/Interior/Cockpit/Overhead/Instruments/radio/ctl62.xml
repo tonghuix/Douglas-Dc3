@@ -15,7 +15,6 @@
 
     <animation>
         <type>material</type>
-        <object-name>CTL-62</object-name>
         <object-name>CTL-62.mem</object-name>
         <object-name>CTL-62.pwr</object-name>
         <object-name>CTL-62.toggle</object-name>
