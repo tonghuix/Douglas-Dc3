@@ -7,7 +7,7 @@
     <model>
       <livery>
         <name type="string">May Ling New Color</name>
-        <texture>Liveries/2048x2048/meiling1.png</texture>
+        <texture>Liveries/2048x2048/mayling1.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>
