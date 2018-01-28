@@ -148,7 +148,7 @@
     <offsets>
       <x-m> -0.2070 </x-m>
       <y-m> -0.2940 </y-m>
-      <z-m>  0.0732 </z-m>
+      <z-m>  0.0602 </z-m>
       <pitch-deg>   17 </pitch-deg>
       <heading-deg> 36 </heading-deg>
     </offsets>
@@ -159,7 +159,7 @@
     <offsets>
       <x-m> -0.2070 </x-m>
       <y-m>  0.2940 </y-m>
-      <z-m>  0.0732 </z-m>
+      <z-m>  0.0602 </z-m>
       <pitch-deg>    17 </pitch-deg>
       <heading-deg> -36 </heading-deg>
     </offsets>
