@@ -65,7 +65,7 @@
     <type>rotate</type>
     <object-name>brasR</object-name>
     <property>controls/hydraulic/wipers-right/position-norm</property>
-    <factor> -170 </factor>
+    <factor> 170 </factor>
     <min>   0 </min>
     <max> 170 </max>
     <axis>
