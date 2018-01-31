@@ -172,8 +172,6 @@
 
   <engines include="engines.xml"/>
 
-  <rain include="glass-rain.xml"/>
-
   <nasal>
     <doors>
       <file>Aircraft/Douglas-Dc3/Nasal/doors.nas</file>
