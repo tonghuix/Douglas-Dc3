@@ -23,7 +23,7 @@
     
     <type type="string">seaplane</type>
     
-    <!-- <variant-of>dc-3</variant-of> -->
+    <variant-of>dc-3</variant-of> 
     
     <rating>
       <FDM type="int">     4 </FDM>
